@@ -365,9 +365,6 @@
 } */
 
 @media (max-width: 614px) {
-  .container {
-    width: 90%;
-  }
   .header nav {
     display: none;
   }
@@ -383,8 +380,8 @@
     width: 70%;
   }
   .about-text h1 {
-    width: 170px;
-    font-size: 30px;
+    width: 370px;
+    font-size: 45px;
   }
   .about-text p {
     margin-block: 20px;
@@ -400,10 +397,7 @@
     width: 30px;
   }
   .about-text button {
-    padding: 12px 30px;
-    background: #5454d4;
-    color: #fff;
-    font-size: 9px;
+    font-size: 15px;
   }
   .service h1 {
     width: 340px;
