@@ -365,6 +365,9 @@
 } */
 
 @media (max-width: 614px) {
+  .container {
+    width: 93%;
+  }
   .header nav {
     display: none;
   }
@@ -380,14 +383,14 @@
     width: 70%;
   }
   .about-text h1 {
-    width: 370px;
-    font-size: 45px;
+    width: 374px;
+    font-size: 47px;
   }
   .about-text p {
     margin-block: 20px;
-    width: 387px;
+    width: 566px;
     line-height: 23px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .logo h1 {
     font-size: 17px;
@@ -413,23 +416,21 @@
   }
   .portfolio h1 {
     font-size: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .portfolio-blocks {
-    height: 380px;
     justify-content: center;
-    align-items: center;
-    overflow-y: scroll;
-    gap: 30px;
+    height: 300px;
   }
   .portfolio-blocks img {
-    width: 80%;
+    width: 67%;
   }
-  .img1,
+
   .img2,
   .img3 {
-    align-self: center;
+    display: none;
   }
+
   .contact h1 {
     width: 355px;
     font-size: 27px;
