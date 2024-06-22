@@ -1,0 +1,456 @@
+/* @media (max-width: 1024px) {
+  .container {
+    max-width: 1160px;
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .box {
+    width: 300px;
+  }
+  .portfolio-blocks {
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+    padding-block: 15px;
+  }
+
+  .logo {
+    gap: 7px;
+  }
+
+  .logo h1 {
+    font-size: 22px;
+  }
+
+  nav {
+    gap: 30px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  #service {
+    padding-block: 50px;
+  }
+
+  .service h1 {
+    width: 420px;
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .portfolio h1 {
+    font-size: 33px;
+  }
+  .contact h1 {
+    width: 500px;
+    font-size: 33px;
+  }
+  .contact button {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+
+  .box {
+    width: 250px;
+    gap: 9px;
+  }
+
+  #portfolio {
+    padding-block: 20px;
+  }
+  .portfolio-blocks {
+    height: 300px;
+  }
+  .service-block {
+    padding-block: 30px;
+    height: 380px;
+  }
+
+  #contact {
+    padding-block: 40px;
+  }
+
+  .box p {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .about-text h1 {
+    width: 250px;
+    font-size: 47px;
+  }
+
+  .about-text p {
+    margin-block: 15px;
+    width: 410px;
+    line-height: 26px;
+    font-size: 14px;
+  }
+  .about-text button {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  #footer {
+    padding-block: 25px;
+  }
+  .footer nav a {
+    font-size: 14px;
+    color: #ffffffa7;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 19px;
+  }
+  nav a {
+    font-size: 11px;
+  }
+  .header input {
+    width: 100px;
+  }
+  .header input::placeholder {
+    font-size: 11px;
+  }
+  .about-text h1 {
+    width: 200px;
+    font-size: 35px;
+  }
+  .about-text p {
+    margin-block: 10px;
+    width: 380px;
+    line-height: 23px;
+    font-size: 13px;
+  }
+  .about-text button {
+    padding: 7px 18px;
+    font-size: 12px;
+  }
+  .service h1 {
+    width: 320px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .box {
+    width: 280px;
+    gap: 10px;
+  }
+  .service-block {
+    height: 460px;
+  }
+  .box img {
+    width: 40px;
+  }
+  .portfolio h1 {
+    font-size: 25px;
+  }
+  .portfolio-blocks {
+    height: 230px;
+  }
+  #contact {
+    padding-block: 20px;
+  }
+
+  #portfolio {
+    padding-block: 5px;
+  }
+
+  #service {
+    padding-block: 15px;
+  }
+  .contact h1 {
+    width: 380px;
+    font-size: 25px;
+  }
+
+  .footer nav a {
+    font-size: 11px;
+  }
+  .footer p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 12px;
+  }
+  .header img {
+    width: 20px;
+  }
+  .header nav {
+    display: none;
+  }
+  .header input {
+    display: none;
+  }
+  .about-text h1 {
+    width: 100px;
+    font-size: 18px;
+  }
+  .about-text p {
+    margin-block: 6px;
+    width: 192px;
+    line-height: 12px;
+    font-size: 7px;
+  }
+  .about-text button {
+    padding: 3px 11px;
+    font-size: 8px;
+  }
+  .service h1 {
+    width: 230px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .service-block {
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 200px;
+    gap: 8px;
+  }
+  .box img {
+    width: 30px;
+  }
+  .box h4 {
+    font-size: 8px;
+  }
+  .box p {
+    width: 60%;
+    font-size: 8px;
+    line-height: 13px;
+  }
+
+  .service-block {
+    height: 300px;
+    padding-block: 10px;
+    align-content: space-between;
+  }
+  .portfolio h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .portfolio-blocks {
+    height: 140px;
+  }
+  .contact h1 {
+    width: 280px;
+    font-size: 18px;
+  }
+  .contact button {
+    padding: 5px 17px;
+    font-size: 8px;
+  }
+  .footer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer img {
+    width: 20px;
+  }
+
+  .footer .logo h1 {
+    font-size: 12px;
+  }
+
+  .footer nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-block: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text h1 {
+    width: 80px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .about-text p {
+    margin-block: 5px;
+    width: 154px;
+    line-height: 12px;
+    font-size: 7px;
+  }
+  .service h1 {
+    width: 100px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .box {
+    width: 160px;
+    gap: 2px;
+    padding-block: 5px;
+  }
+  .box img {
+    width: 16px;
+  }
+  .service-block {
+    height: 600px;
+  }
+  .portfolio-blocks {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img1 {
+    align-self: center;
+  }
+
+  .img2 {
+    align-self: center;
+  }
+
+  .img3 {
+    align-self: center;
+  }
+  #service {
+    padding-block: 10px;
+  }
+  #portfolio {
+    padding-block: 10px;
+  }
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio h1 {
+    width: 80px;
+    font-size: 8px;
+    margin-bottom: 13px;
+  }
+  #contact {
+    padding-block: 10px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .contact h1 {
+    width: 110px;
+    font-size: 8px;
+  }
+  .contact button {
+    padding: 3px 8px;
+    background: #5454d4;
+    color: #fff;
+    font-size: 5px;
+  }
+} */
+
+@media (max-width: 614px) {
+  .container {
+    width: 90%;
+  }
+  .header nav {
+    display: none;
+  }
+  .header input {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about img {
+    width: 70%;
+  }
+  .about-text h1 {
+    width: 170px;
+    font-size: 30px;
+  }
+  .about-text p {
+    margin-block: 20px;
+    width: 387px;
+    line-height: 23px;
+    font-size: 12px;
+  }
+  .logo h1 {
+    font-size: 17px;
+  }
+
+  .header img {
+    width: 30px;
+  }
+  .about-text button {
+    padding: 12px 30px;
+    background: #5454d4;
+    color: #fff;
+    font-size: 9px;
+  }
+  .service h1 {
+    width: 340px;
+    font-size: 27px;
+    text-align: center;
+  }
+  .service-block {
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 25px;
+  }
+  .portfolio h1 {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  .portfolio-blocks {
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    gap: 30px;
+  }
+  .portfolio-blocks img {
+    width: 80%;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    align-self: center;
+  }
+  .contact h1 {
+    width: 355px;
+    font-size: 27px;
+  }
+  .contact button {
+    font-size: 11px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
